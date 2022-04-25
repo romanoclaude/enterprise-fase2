@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: OpenDyslexic;
+  src: url("../fonts/OpenDyslexic2/OpenDyslexic-Regular.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.changeLangOpenDyslexic {
+  font-family: "OpenDyslexic", "Poppins", sans-serif !important;
+}
+
+.changeLangPoppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+p {
+  font-size: 14px;
+}
+
+.buttonChangeLang {
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  border-radius: 50%;
+  border-style: none !important;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  background-color: #000;
+  right: 0;
+  top: 25%;
+  margin-right: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonChangeLang>img {
+  width: 80%;
+}
+
+/* INICIO LIBRAS */
+.enabled {
+  margin-right: 5px;
+  margin-top: -43vh !important;
+}
+
+.access-button {
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  border-radius: 50px !important;
+  border: 0px;
+}
+
+/* FIM LIBRAS */
+
+/* INICIO HEADER */
+
+header {
+  width: 100% !important;
+  position: fixed !important;
+  z-index: 100;
+}
+
+.container_header {
+  height: 80px;
+  width: 100%;
+  background-color: #151340;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_logo_search {
+  width: 35%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_links {
+  width: 55%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 5px;
+}
+
+.link_nav {
+  font-weight: bold;
+  color: #e9edeb;
+  text-decoration: none;
+  font-size: 1.8vmin;
+  text-shadow: 0px 0px 10px black;
+
+  padding: 0px 10px;
+}
+
+.container_logo_search>img {
+  width: 45px;
+}
+
+.container_logo_search>input {
+  width: 60%;
+  height: 35px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 20px;
+
+  border: none;
+  box-shadow: 1px 1px 4px black;
+}
+
+.container_link_register {
+  border-left: 2px solid #e9edeb;
+  padding-left: 0px;
+}
+
+/* FIM HEADER */
+
+/* INICIO MAIN */
+.background_home_lazer {
+  height: calc(80vh + 80px);
+  background-image: url("../assets/img_city-of_mexico.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.container_infos_background {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding: 50px;
+  background-color: #22324071;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container_infos_background>input {
+  width: 80%;
+  height: 35px;
+  border-radius: 20px;
+  padding: 10px;
+  background-image: url("../assets/searchTeste.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+
+  border: none;
+  box-shadow: 1px 1px 4px black;
+}
+
+.container_infos_background>h1 {
+  margin-bottom: 30px;
+  width: 70%;
+  text-align: left;
+  color: #e9edeb;
+  text-shadow: 0px 0px 3px black;
+}
+
+.container_infos_background>p {
+  width: 70%;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+/* inicio cards das atrações */
+.cards_attractions {
+  padding: 5%;
+}
+
+.section_card {
+  height: 350px;
+  margin-top: 50px;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  margin: 50px 0px;
+}
+
+.container_card_header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  width: 100%;
+  height: 20%;
+}
+
+.price {
+  display: flex;
+  align-items: flex-end;
+
+  height: 100%;
+  padding: 0px 0px 5px 5px;
+}
+
+.price>img {
+  height: 60%;
+  margin: 0px 3px;
+}
+
+.link_about {
+  font-weight: none;
+  color: #000;
+  text-decoration: none;
+  font-size: none;
+  text-shadow: none;
+
+  padding-bottom: 5px;
+}
+
+.container_card {
+  height: 80%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+}
+
+.img_cards {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 10px;
+
+  height: 100%;
+  min-width: 33%;
+  background-image: url("../assets/Mudeo\ Nacional\ de\ Arte.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.img_0 {
+  background-image: url("../assets/Piramide\ Teotihuacan.png");
+}
+
+.img_1 {
+  background-image: url("../assets/Parque\ Linear.jpg");
+}
+
+.img_2 {
+  background-image: url("../assets/museu-antropologia.jpg");
+}
+
+.img_3 {
+  background-image: url("../assets/Templo\ Mayor.jpg");
+}
+
+.activities_attraction {
+  height: 100%;
+  width: 15%;
+  background-color: #7d7d7d93;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.activities_attraction>img {
+  width: 80%;
+  margin: 3px 0px;
+}
+
+.content_card {
+  max-width: 100%;
+  max-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+
+  border: 1px solid rgba(0, 0, 0, 0.419);
+  border-left: 0px;
+  border-style: dashed;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.content_text>p>a {
+  text-decoration: none;
+  color: #000;
+}
+
+.line {
+  width: 70%;
+  border: 1px solid rgba(0, 0, 0, 0.419);
+  border-left: 0px;
+  border-style: dashed;
+}
+
+/* fim cards das atrações */
+/* FIM MAIN */
+
+/* INICIO FOOTER */
+footer {
+  height: 55px;
+  width: 100%;
+  background-color: #151340;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FIM FOOTER */
